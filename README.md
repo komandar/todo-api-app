@@ -104,15 +104,14 @@ vendor/bin/codecept run Api
 
 ## Todo
 
-Die folgenden Sachen sind für spätere Versionen in Planung:
+The following things are planned for later versions:
 
-* Todo-Plattform für Benutzer erstellen
-* PHPMD, PHPCS, PHPStan, PHPUnit Konfigurationen optimieren
-* Testabdeckung erweitern
-  * PHPUnit Tests
-  * Tools integrieren wie Codecov, etc.
-* Detailiertere Dokumentation
-* Kleine CI/CD mittels GitHub Action erstellen
+* Create todo platform for users
+* Optimize PHPMD, PHPCS, PHPStan, PHPUnit configurations
+* Extend test coverage
+* Integrate tools like Codecov, etc.
+* More detailed documentation
+* Create small CI/CD using GitHub Action
 
 ## Contributing
 
