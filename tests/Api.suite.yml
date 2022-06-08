@@ -1,0 +1,11 @@
+actor: ApiTester
+suite_namespace: App\Tests\Api
+modules:
+    enabled:
+        - Symfony:
+              app_path: 'src'
+              environment: 'test'
+        - REST:
+              url: http://127.0.0.1:8000/
+              depends: PhpBrowser
+              part: Json
