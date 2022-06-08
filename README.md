@@ -65,22 +65,21 @@ git clone git@github.com:komandar/todo-api-app.git
 cd todo-api-app
 ```
 
-2. Install composer dependencies
-
-```sh
-composer install
-```
-
-3. Start database server
+2. Start database server
 
 ```sh
 docker compose up -d
 ```
 
+3. Install composer dependencies
+
+```sh
+composer install
+```
+
 4. Setup database and load fixtures
 
 ```sh
-symfony console doctrine:database:create
 symfony console doctrine:migrations:migrate
 symfony console doctrine:fixtures:load
 ```
@@ -92,6 +91,8 @@ symfony serve
 ```
 
 Open your web browser (default: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)) or use Postman/Curl to make api calls.
+
+Alternatively, `make install` can be used to perform an automated installation.
 
 ## Testing
 
